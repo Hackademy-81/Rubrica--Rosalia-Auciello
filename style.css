@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.button-custom {
+
+    height:70px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10%;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+}
+
+.button-custom:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+
+}
+
+.card-custom {
+    height: 70px;
+    background-color: transparent;
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.icon{
+    cursor: pointer;
+}
