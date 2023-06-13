@@ -22,7 +22,7 @@ let rubrica= {
     showContacts: function (array) {
 
         wrapper2.innerHTML= ""; 
-        this.contacts.forEach((contact)=>
+        array.forEach((contact)=>
         {  
             let divCard= document.createElement("div");
             divCard.classList.add("col-12", "col-md-8", "card-custom");
@@ -126,7 +126,7 @@ btnAddContacts.addEventListener("click", ()=> {
 }); 
 
 btnSearchContacts.addEventListener("click", ()=> {
-    rubrica.searchContacts(nameInput.name); 
+    rubrica.searchContacts(nameInput.value); 
     nameInput.value= ""; 
 })
 
